@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.atmecs.automation.testscripts.SignInTest">
+        <methods>
+          <include name="signInTest"/>
+          <include name="declaration"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.automation.testscripts.SignInTest -->
+      <class name="com.atmecs.automation.testscripts.AddToCartTest">
+        <methods>
+          <include name="addtocartTest"/>
+        </methods>
+      </class> <!-- com.atmecs.automation.testscripts.AddToCartTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
